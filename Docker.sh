@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#Parando ou iniciando os serviços do Docker
+
 status=$(service docker status | grep active | awk '{print $2}')
 zenity --question --text "Status atual do Docker: $status - Deseja modificar?" --no-wrap --ok-label "Sim" --cancel-label "Não"
 opcao=$?
