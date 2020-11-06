@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Version=1.0
 Name=Docker Switcher
-Comment=Switc status of Docker
+Comment=Switch status of Docker
 Type=Application
-Exec=/opt/DockStation/DockerSwitcher.sh
+Exec=/opt/Docker.sh
 Icon=gnome-system.png
